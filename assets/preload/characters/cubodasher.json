@@ -35,17 +35,6 @@
 		},
 		{
 			"offsets": [
-				-29,
-				27
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singUP",
-			"indices": [],
-			"name": "BF NOTE UP0"
-		},
-		{
-			"offsets": [
 				-48,
 				-7
 			],
@@ -135,28 +124,6 @@
 		{
 			"offsets": [
 				37,
-				11
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "firstDeath",
-			"indices": [],
-			"name": "BF dies"
-		},
-		{
-			"offsets": [
-				37,
-				5
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "deathLoop",
-			"indices": [],
-			"name": "BF Dead Loop"
-		},
-		{
-			"offsets": [
-				37,
 				69
 			],
 			"loop": false,
@@ -197,24 +164,57 @@
 			"anim": "pre-attack",
 			"indices": [],
 			"name": "bf pre attack"
+		},
+		{
+			"offsets": [
+				1493,
+				327
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "cuboPICO-salto"
+		},
+		{
+			"offsets": [
+				269,
+				139
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "firstDeath",
+			"loop": false,
+			"name": "cuboPICO-hit"
+		},
+		{
+			"offsets": [
+				270,
+				116
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathLoop",
+			"loop": true,
+			"name": "cubo die loop"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/BOYFRIEND",
+	"image": "characters/cubodasher",
 	"position": [
 		0,
 		350
 	],
-	"healthicon": "bf",
+	"healthicon": "cubo",
 	"flip_x": true,
 	"healthbar_colors": [
-		49,
-		176,
-		209
+		255,
+		255,
+		0
 	],
 	"camera_position": [
-		120,
-		-30
+		0,
+		0
 	],
 	"sing_duration": 4,
 	"scale": 1
